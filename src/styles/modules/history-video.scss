@@ -1,0 +1,31 @@
+.hanet-history-video {
+    .body {
+        position: relative;
+        .filter-button {
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 1;
+        }
+    }
+
+    .event-content {
+        background: #1e1e1e;
+        height: 600px;
+    }
+
+    .video-item {
+        width: 100%;
+        // max-width: 1200px;
+        aspect-ratio: 215/121;
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .video-item-player {
+            // width: 200px;
+            width: 100%;
+        }
+    }
+}
